@@ -1,0 +1,21 @@
+sort1 uses: Bubble Sort
+
+How do you know?: It takes more time for random lists and much less time for sorted lists
+
+sort2 uses: Merge Sort
+
+How do you know?: I takes about the same (sometimes less) time for random and sorted lists. Also it takes much less time than the other two Sorting Algorithms.
+
+sort3 uses: Selection Sort
+
+How do you know?: It takes about the same (sometimes more) time for random and sorted lists
+
+//notes:
+sort1 random10k: .193s
+sort1 sorted10k: .050s
+
+sort2 random10k: .048s
+sort2 sorted10k: .046s
+
+sort3 random10k: .110s
+sort3 sorted10k: .110s
