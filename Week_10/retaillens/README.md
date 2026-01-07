@@ -45,8 +45,6 @@ retaillens/
 ├── templates/
 │   ├── index.html         # Upload and analysis results page
 │   └── history.html       # Analysis history page
-│
-├── static/                # Static assets (optional)
 ├── uploads/               # Uploaded CSV files
 └── README.md
 ```
