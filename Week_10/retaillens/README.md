@@ -126,6 +126,30 @@ Based on the demand trend:
 
 ---
 
+## Motivation
+
+Small retail shop owners often rely on intuition rather than data when deciding how much stock to purchase or how to price products. RetailLens was built to demonstrate how simple, transparent data analysis can assist decision-making without requiring advanced machine learning systems.
+
+---
+
+## Design Decisions
+
+- A rule-based approach was chosen instead of machine learning to keep the system interpretable and suitable for small datasets.
+- SQLite was used for persistence to avoid external dependencies while still supporting historical analysis.
+- Flask was selected for its simplicity and clarity in demonstrating backend logic and routing.
+
+---
+
+## What I Learned
+
+- Designing and structuring a Flask application
+- Handling file uploads securely
+- Persisting structured data using SQLite
+- Writing maintainable analysis logic
+- Documenting a project clearly for technical and non-technical audiences
+
+---
+
 ## Author
 Tirtha Debnath
 
