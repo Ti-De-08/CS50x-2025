@@ -41,11 +41,12 @@ retaillens/
 ├── retaillens.db          # SQLite database (generated at runtime)
 ├── sample_data.csv        # Example input dataset
 ├── test_analysis.py       # Basic testing for analysis logic
-│
+├── 
 ├── templates/
 │   ├── index.html         # Upload and analysis results page
 │   └── history.html       # Analysis history page
 ├── uploads/               # Uploaded CSV files
+├── .gitignore
 └── README.md
 ```
 
