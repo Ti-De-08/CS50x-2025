@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RetailLens — Analysis History</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+<h1>RetailLens — Analysis History</h1>
+
+<a href="/">← Back to Upload</a>
+
+{% if rows %}
+<table>
+    <tr>
+        <th>Product</th>
+        <th>Category</th>
+        <th>Demand Trend</th>
+        <th>Recommended Quantity</th>
+        <th>Recommended Price</th>
+        <th>Created At</th>
+    </tr>
+
+    {% for row in rows %}
+    <tr>
+        <td>{{ row["product_name"] }}</td>
+        <td>{{ row["category"] }}</td>
+        <td>{{ row["demand_trend"] }}</td>
+        <td>{{ row["recommended_quantity"] }}</td>
+        <td>₹ {{ row["recommended_price"] }}</td>
+        <td>{{ row["created_at"] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% else %}
+<p>No analysis history found.</p>
+{% endif %}
+
+</body>
+</html>
