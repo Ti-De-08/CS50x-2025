@@ -1,0 +1,35 @@
+body{
+    width: 80%;
+    margin: auto;
+    background-color: #FFF9DB
+;
+}
+
+header{
+    text-align: center;
+}
+nav > ul{
+    list-style: none;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.dark-mode {
+  background-color: black !important;
+  color: white !important;
+}
+
+nav > ul > li > a {
+     text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
+
+.circle-photo {
+    border-radius: 35%;
+}
